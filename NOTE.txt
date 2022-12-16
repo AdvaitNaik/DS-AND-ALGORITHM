@@ -1,12 +1,14 @@
-Algorithm
-In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output. 
 
-Data Structures
-Data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
-Data structure is the collection of data types arranged in a specific order.
-
-Types of Data Structure
-1. Linear data structure
-   In linear data structures, the elements are arranged in sequence one after the other. Since elements are arranged in particular order, they are easy to implement.
-
-2. Non-linear data structure
+            # we will store the firstElement of array2
+            # and left shift all the element and store
+            # the firstElement in arr2[k-1]
+ 
+            firstElement = arr2[0];
+ 
+            k = 1;
+            for p in range(1, m):
+                if(arr2[k] < firstElement):
+                    arr2[k - 1] = arr2[k];
+                    k += 1;
+                
+            arr2[k - 1] = firstElement;
