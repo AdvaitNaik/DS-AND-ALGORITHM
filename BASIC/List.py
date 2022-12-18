@@ -37,6 +37,7 @@ print(months)
 
 # List reverse
 print(months[::-1]) 
+print(months.reverse()) 
 
 
 # Join is a string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string.
