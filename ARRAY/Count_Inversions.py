@@ -14,6 +14,7 @@ for i in range(len(arr)):
 print(res)
 
 
-## BMERGE SORT
-# Time Complexity -> O(nlogn)
+## MERGE SORT
+# Time Complexity -> O(nlogn) -> Merge Sort
 # Space Complexity -> O(n)
+
