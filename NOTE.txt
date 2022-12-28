@@ -1,3 +1,6 @@
+https://www.educative.io/courses/grokking-coding-interview-patterns-python
+
+
 
             # we will store the firstElement of array2
             # and left shift all the element and store
