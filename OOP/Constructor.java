@@ -1,10 +1,10 @@
 package OOP;
 
-class Main {
+class Constructor {
     private String name;
   
     // constructor
-    Main() {
+    Constructor() {
       System.out.println("Constructor Called:");
       name = "Programiz";
     }
@@ -13,7 +13,7 @@ class Main {
   
       // constructor is invoked while
       // creating an object of the Main class
-      Main obj = new Main();
+      Constructor obj = new Constructor();
       System.out.println("The name is " + obj.name);
     }
 }

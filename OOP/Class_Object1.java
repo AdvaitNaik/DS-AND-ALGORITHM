@@ -19,7 +19,7 @@ class Lamp {
     }
   }
   
-  class ClassObject1 {
+  class Class_Object1 {
     public static void main(String[] args) {
   
       // create objects led and halogen

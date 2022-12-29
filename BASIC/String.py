@@ -23,3 +23,4 @@ print(arr.split()[-1])
 
 print(type("abc"))
 print(type("abc"[0]))
+

@@ -7,7 +7,7 @@ phonebook = {
 squares = {x: x * x for x in range(6)}
 
 
-print(len(phonebook))
+# print(len(phonebook))
 
 thisdict = {
   "brand": "Ford",
@@ -16,13 +16,13 @@ thisdict = {
   "colors": ["red", "white", "blue"]
 }
 
-print(phonebook.keys())
+# print(phonebook.keys())
 
-print(thisdict.get("brand"))
+# print(thisdict.get("brand"))
 
-print(thisdict.values())
+# print(thisdict.values())
 
-print(thisdict.items())
+# print(thisdict.items())
 # lst.sort(key=lambda x:x[1])
 
 for x in thisdict:

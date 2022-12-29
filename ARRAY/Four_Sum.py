@@ -11,9 +11,19 @@ def FourSumBruteForce(nums, target) -> list[list[int]]:
                     temp.sort()
                     answer.append(temp)
 
+
+                if(nums[k] == temp[2] and nums[k] == temp[2]):
+                    k = k+1
+            if(nums[j] == temp[1]):
+                j = j+1
+        if(nums[i] == temp[0]):
+            i = i+1    
+
+
+
     return answer
 
-## BRUTE FROCE
+## LEFT-RIGHT FROCE
 # Time Complexity -> O(n3)
 # Space Complexity -> O(1)
 

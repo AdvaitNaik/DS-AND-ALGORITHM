@@ -1,6 +1,6 @@
 package OOP;
 
-class ClassObject2 {
+class Class_Object2 {
   
     // stores the value for light true if light is on false if light is off
     boolean isOn;
@@ -15,7 +15,7 @@ class ClassObject2 {
     public static void main(String[] args) {
       
       // create an object of Lamp
-      ClassObject2 led = new ClassObject2();
+      Class_Object2 led = new Class_Object2();
   
       // access method using object
       led.turnOn();
