@@ -1,15 +1,3 @@
-// # Naive Method
-// ## Time Complexity -> O(nlogn)
-// ## Sort -> Merge Sort O(logn)
-// ## Space Compplexity -> O(1)
-
-
-// ## Hashing
-// ## Time Complexity -> O(n)
-// ## Space Compplexity -> O(n)
-
-
-
 // # Circular Array
 // ## Time Complexity -> O(n)
 // ## Space Compplexity -> O(1)

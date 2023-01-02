@@ -2,6 +2,17 @@
 ## Time Complexity -> O(nlogn) + O(n) + O(n)
 ## Space Complexity -> O(n)
 
+# Intuition: We can use a new array of size n+m and put all elements of arr1 and arr2 in it, and sort it. 
+# After sorting it, but all the elements in arr1 and arr2.
+
+# Approach:
+
+# Make an arr3 of size n+m.
+# Put elements arr1 and arr2 in arr3.
+# Sort the arr3.
+# Now first fill the arr1 and then fill remaining elements in arr2. 
+
+
 def ThirdArray():
     ar1 = [1, 5, 9, 10, 15, 20]
     ar2 = [2, 3, 8, 13]
@@ -27,13 +38,18 @@ def ThirdArray():
     print(ar2)
 
 ## TRAVERSE
-# The idea is: We will traverse the first array and compare it with the first element of the second array. If the first element of the second array is smaller than the first array, we will swap and then sort the second array. 
+# Intuition: We can think of Iterating in arr1 and whenever we encounter an element that is greater than the first 
+# element of arr2, just swap it. Now rearrange the arr2 in a sorted manner, after completion of the loop we will get 
+# elements of both the arrays in non-decreasing order.
 
-#1 First, we have to traverse array1 and then compare it with the first element of array2. If it is less than array1 then we swap both.
-#2 After swapping we are going to sort the array2 again so that the smallest element of the array2 comes at the first position and we can again swap with the array1
-#3 To sort the array2 we will store the first element of array2 in a variable and left shift all the elements and store the first element in array2 in the last.
+# Approach:
 
-## Time Complexity -> O(n + m)
+# Use a for loop in arr1.
+# Whenever we get any element in arr1 which is greater than the first element of arr2,swap it.
+# Rearrange arr2.
+# Repeat the process.
+
+## Time Complexity -> O(n*m)
 ## Space Complexity -> O(1)
 
 def Traverse(ar1,ar2):
@@ -51,6 +67,14 @@ def Traverse(ar1,ar2):
 ## GAP METHOD 
 ## Time Complexity -> O(nlogn)
 ## Space Complexity -> O(1)
+
+# Approach:
+
+# Initially take the gap as (m+n)/2;
+# Take as a pointer1 = 0 and pointer2 = gap.
+# Run a oop from pointer1 &  pointer2 to  m+n and whenever arr[pointer2]<arr[pointer1], just swap those.
+# After completion of the loop reduce the gap as gap=gap/2.
+# Repeat the process until gap>0.
 
 
 if __name__ == "__main__":
