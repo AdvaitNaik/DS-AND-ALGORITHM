@@ -1,6 +1,34 @@
 https://www.educative.io/courses/grokking-coding-interview-patterns-python
 
 
+Prefix Sum Technique - https://takeuforward.org/data-structure/prefix-sum-technique/
+Two Pointer Approach - https://takeuforward.org/data-structure/what-is-two-pointer-approach/
+
+
+
+
+What-math-topics-should-I-prepare-for-coding-interviews
+
+1. Basic Algebra - solving linear equations
+2. Coordinate Geometry - Single line and how it is represented in 2D coordinates -> (y = mx + c) - useful in geometric problems
+3. Permutations & Combinations: n choose k, n pick k
+	https://www.geeksforgeeks.org/permutation-and-combination/
+	https://www.youtube.com/watch?v=dSqFsRy6QFE
+4. Factorial Arithmetic rules: https://www.mathsisfun.com/numbers/factorial.html
+5. Working with different bases, conversion between them: binary, hexadecimal, digital.
+6. What are Logs? How to compute from one log base to another.
+7. Basic Log arithmetic rules: https://www.purplemath.com/modules/logrules.htm
+8. Exponential Arithmetic rules: http://www.mesacc.edu/~scotz47781/mat120/notes/exponents/review/review.html
+9. Sum of Arithmetic series & Geometric Series - useful when calculating time in recursion -> n + n/2 + n/4 + ...
+	https://www.s-cool.co.uk/a-level/maths/sequences-and-series/revise-it/arithmetic-and-geometric-progressions
+
+
+
+
+
+
+
+
 
             # we will store the firstElement of array2
             # and left shift all the element and store
