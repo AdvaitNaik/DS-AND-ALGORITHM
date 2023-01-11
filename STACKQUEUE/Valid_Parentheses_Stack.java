@@ -39,7 +39,7 @@ class Validation{
     }
 }
 
-public class Valid_Parentheses {
+public class Valid_Parentheses_Stack {
     public static void main(String args[]) {
         String s="()[{}()]";
         Validation v = new Validation();
