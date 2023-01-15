@@ -1,5 +1,7 @@
 ## MERGE SORT ALGORITHM
 
+# Time Complexity -> O(NlogN)
+
 # step 1: start
 # step 2: declare array and left, right, mid variable
 # step 3: perform merge function.
