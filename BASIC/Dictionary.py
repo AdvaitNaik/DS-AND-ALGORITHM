@@ -38,6 +38,8 @@ for x in thisdict.keys():
 for x, y in thisdict.items():
   print(x, y)
 
+dct = defaultdict(int)
+
 ## dictionary delete
 # thisdict.update({"year": 2020})
 # thisdict.pop("model")
