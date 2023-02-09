@@ -9,7 +9,7 @@ package GREEDYALGORITHM;
 
 // Start iterating from the second meeting. At every position we have two possibilities:-
 
-// 1. If the start time of a meeting is  strictly greater than limit we can perform the meeting. 
+// 1. If the start time of a meeting is strictly greater than limit we can perform the meeting. 
 //    Update the answer.New limit is the ending time of the current meeting since it was last performed.
 //    Also update limit.  
 // 2. If the start time is less than or equal to limit, skip and move ahead. 
