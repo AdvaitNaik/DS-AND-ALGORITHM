@@ -11,7 +11,7 @@
 # if (a[index] <= target)
 
 # Base condition
-# If index== size of array and  
+# If index == size of array and  
 # target == 0 include the combination in our answer
 
 # Time Complexity = O(n*2^target)
@@ -24,8 +24,8 @@ def recursionSubSequenceSum(index, subarr, arr, length, target, ans):
             print(ans)
         return
 
-    if (arr[index] <= target): # with repetition
-    # if (target >= 0): # without repetition
+    if (arr[index] <= target): # with/without repetition
+    # if (target >= 0): # with/without repetition
         subarr.append(arr[index])
         # recursionSubSequenceSum(index+1, subarr, arr, length, target-arr[index]) # without repetition
         recursionSubSequenceSum(index, subarr, arr, length, target-arr[index], ans) # with repetition
